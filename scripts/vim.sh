@@ -2,12 +2,6 @@
 
 echo ">>> Setting up Vim"
 
-if [[ -z $1 ]]; then
-    github_url="https://raw.githubusercontent.com/fideloper/Vaprobash/master"
-else
-    github_url="$1"
-fi
-
 # Create directories needed for some .vimrc settings
 mkdir -p /home/vagrant/.vim/backup
 mkdir -p /home/vagrant/.vim/swap

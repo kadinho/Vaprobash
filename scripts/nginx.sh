@@ -28,12 +28,6 @@ else
     hostname=" $3"
 fi
 
-if [[ -z $4 ]]; then
-    github_url="https://raw.githubusercontent.com/fideloper/Vaprobash/master"
-else
-    github_url="$4"
-fi
-
 # Add repo for latest stable nginx
 sudo add-apt-repository -y ppa:nginx/stable
 

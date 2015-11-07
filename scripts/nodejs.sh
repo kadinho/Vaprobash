@@ -23,6 +23,7 @@ elif [[ $NUMBER_OF_ARG -eq 2 ]]; then
 else
     # Default Nodejs version when nothing is given
     NODEJS_VERSION=latest
+    NODE_PACKAGES=${NODE_ARG[@]:2}
     GITHUB_URL="https://raw.githubusercontent.com/fideloper/Vaprobash/master"
 fi
 
